@@ -13,7 +13,7 @@
     </div>
     <div class="column k1zIA">
       <div class="col">
-        <div class="q-gutter-md" style=" background-color: green; margin-left: 30%; margin-right: 25%; min-width : 25%">
+        <div class="q-gutter-md" style=" background-color: green; margin-left: 25%; margin-right: 25%; min-width : 25%">
           <q-input rounded outlined >
             <template v-slot:prepend>
               <q-icon name="search" />
@@ -25,9 +25,9 @@
         </div>
       </div>
       <div class="col">
-        <div class="row justify-evenly">
+        <div class="row justify-evenly" style="background-color: blue; margin-left: 25%; margin-right: 25%;">
           <div class="col-4">
-            <q-btn color="white" text-color="black" label="Recherche Google" />
+            <q-btn color="white" text-color="black" label="Recherche Google"  />
           </div>
           <div class="col-4">
             <q-btn color="white" text-color="black" label="J'ai de la chance" />
@@ -60,11 +60,11 @@ export default {
     max-height: 590px;
   }
   .k1zIA {
-    height: 175px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     background-color: yellow;
-    padding: 20px;
+    padding: 10px;
   }
   .gyttt {
     height: 80px;
@@ -72,6 +72,6 @@ export default {
     flex-direction: column;
     background-color: green;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
 </style>

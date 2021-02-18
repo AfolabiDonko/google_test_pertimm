@@ -1,10 +1,5 @@
 <template>
   <q-layout view="lHr lpr fFf">
-      <q-header reveal class="bg-black">
-        <q-toolbar>
-          <q-toolbar-title>Header</q-toolbar-title>
-        </q-toolbar>
-      </q-header>
       <q-footer>
         <q-toolbar>
           <q-toolbar-title>Footer</q-toolbar-title>
