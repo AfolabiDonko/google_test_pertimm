@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="column gyttt">
+    <div class="column layout_language">
       <div class="col">
         <div>
           Google disponible en : <a href="">English</a>
@@ -81,18 +81,21 @@ export default {
     margin-left: 10px
   }
   .input_div {
-    margin-left: 32%;
-    margin-right: 32%;
-    width: 685px;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: column;
+    align-items: stretch;
   }
   .button_div {
-    margin-left: 32%;
+    margin-left: 42%;
     margin-top: 1%;
-    margin-right: 32%;
+    align-items: stretch;
+    flex-direction: column;
     width: 685px;
   }
-  .gyttt {
+  .layout_language {
     height: 80px;
+    margin-left: 1%;
     display: flex center;
     flex-direction: column;
     text-align: center;
