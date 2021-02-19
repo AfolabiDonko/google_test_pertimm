@@ -13,7 +13,7 @@
     </div>
     <div class="column k1zIA">
       <div class="col">
-        <div class="q-gutter-md" style=" background-color: green; margin-left: 25%; margin-right: 25%; min-width : 25%">
+        <div class="q-gutter-md" style=" background-color: green; margin-left: 25%; margin-right: 25%; min-width : 25%;width: 685px">
           <q-input rounded outlined >
             <template v-slot:prepend>
               <q-icon name="search" />
@@ -25,12 +25,10 @@
         </div>
       </div>
       <div class="col">
-        <div class="row justify-evenly" style="background-color: blue; margin-left: 25%; margin-right: 25%;">
-          <div class="col-4">
+        <div class="row justify-evenly" style="background-color: blue; margin-left: 25%; margin-right: 25%; width: 685px">
+          <div>
             <q-btn color="white" text-color="black" label="Recherche Google"  />
-          </div>
-          <div class="col-4">
-            <q-btn color="white" text-color="black" label="J'ai de la chance" />
+            <q-btn color="white" text-color="black" label="J'ai de la chance" style="margin-left: 10px"/>
           </div>
         </div>
       </div>
