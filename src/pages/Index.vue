@@ -1,19 +1,18 @@
 <template>
   <div class="q-pa-md">
-    <div class="column rSk4se">
+    <div class="column layout_image">
       <div class="col">
         <q-img
           src="google.png"
           spinner-color="white"
-          style="height: 92px; width: 272px; text-align: center;margin-top: 260px;margin-left: 40%;margin-right: 40%;"
           img-class="my-custom-image"
-          class="rounded-borders"
+          class="rounded-borders img"
         />
       </div>
     </div>
-    <div class="column k1zIA">
+    <div class="column layout_input">
       <div class="col">
-        <div class="q-gutter-md" style=" background-color: green; margin-left: 25%; margin-right: 25%; min-width : 25%;width: 685px">
+        <div class="q-gutter-md input_div">
           <q-input rounded outlined >
             <template v-slot:prepend>
               <q-icon name="search" />
@@ -25,10 +24,10 @@
         </div>
       </div>
       <div class="col">
-        <div class="row justify-evenly" style="background-color: blue; margin-left: 25%; margin-right: 25%; width: 685px">
+        <div class="row justify-evenly button_div">
           <div>
-            <q-btn color="white" text-color="black" label="Recherche Google"  />
-            <q-btn color="white" text-color="black" label="J'ai de la chance" style="margin-left: 10px"/>
+            <q-btn class="btn_search" label="Recherche Google" />
+            <q-btn class="btn_lucky" label="J'ai de la chance" />
           </div>
         </div>
       </div>
@@ -50,25 +49,52 @@ export default {
 }
 </script>
 <style scoped>
-  .rSk4se {
-    height: 355px;
+  .layout_image {
+    height: 260px;
     display: flex;
-    background-color: red;
     min-height: 92px;
     max-height: 590px;
   }
-  .k1zIA {
+  .layout_input {
     height: 150px;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
     padding: 10px;
+  }
+  .img {
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 42%;
+    margin-right: 42%;
+  }
+  .btn_search {
+    background: #f8f9fa;
+    color: black;
+    font-size:12px;
+  }
+  .btn_lucky {
+    background: #f8f9fa;
+    color: black;
+    font-size:12px;
+    margin-left: 10px
+  }
+  .input_div {
+    margin-left: 32%;
+    margin-right: 32%;
+    width: 685px;
+  }
+  .button_div {
+    margin-left: 32%;
+    margin-top: 1%;
+    margin-right: 32%;
+    width: 685px;
   }
   .gyttt {
     height: 80px;
     display: flex center;
     flex-direction: column;
-    background-color: green;
     text-align: center;
     padding: 10px;
   }
